@@ -1,0 +1,136 @@
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.drawer{
+    position: absolute;
+    width: 420px;
+    height: 100%;
+    right: 0;
+    background: #ffffff;
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.cartItems{
+    flex: 1;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+.cartH2{
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cartImgH2{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.15s ease-in-out;
+}
+.cartImgH2:hover{
+    opacity: 1;
+}
+.cartItem{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f3f3f3;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.cartImg{
+    margin-right: 20px;
+}
+.cartText{
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.cartP{
+    margin-bottom: 5px;
+    opacity: 1;
+    font-size: 16px;
+}
+.cartB{
+    font-size: 14px;
+}
+.cartImg2{
+    opacity: 0.5;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: opacity 0.15s ease-in-out;
+}
+.cartImg2:hover{
+    opacity: 1;
+}
+
+.comeBack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.comeBackButton{
+    width: 245px;
+    margin-top: 20px;
+    position: relative;
+    height: 55px;
+    background: #9dd558;
+    border-radius: 18px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+.comeBackButton:hover{
+    background: #86d723;
+}
+.comeBackButton:active{
+    background: #314b11;
+}
+
+.cartUl{
+
+}
+.cartUlDiv{
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dashed #dfdfdf;
+    position: relative;
+    top: -4px;
+    margin: 0 7px;
+}
+.li1{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.cartBtn{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background: #9dd558;
+    border-radius: 18px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+.cartBtn:hover{
+    background: #86d723;
+}
+.cartBtn:active{
+    background: #314b11;
+}
+

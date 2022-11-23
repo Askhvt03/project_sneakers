@@ -1,0 +1,38 @@
+
+
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eaeaea;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+.headerLeftInfo{
+    margin-left: 10px;
+}
+#imgHead{
+    margin-right: 15px;
+}
+.btnBasket{
+    cursor: pointer;
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-size: 13px;
+}
+b{
+    font-size: 13px;
+}
+.headerRight{
+    display: flex;
+
+}
